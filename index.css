@@ -94,3 +94,30 @@ a{
 .library-options:hover{
     opacity: 1;
 }
+.playlist{
+    height: 180px;
+    background-color:#121212;
+    padding: 1rem;
+    line-height: 0;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: left;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+.playlist h1{
+    font-size: 1.25rem;
+}
+.playlist h6{
+    font-size: 1rem;
+}
+.playlist button{
+    height: 4rem;
+    width: 180px;
+    border-radius: 2rem;
+    padding: 5px;
+    font-weight:600;
+    background-color: #fff;
+    font-size:large;
+}
