@@ -66,10 +66,15 @@ a{
     font-size: 1rem;
 }
 .library{
+    height: 100%;
+    background-color: #121212;
+    border-radius: 1rem;
+}
+
+.library-nav{
     height: 3rem;
     border-radius: 1rem;
     margin:1rem 0;
-    background-color: #121212;
     font-size: 1.25rem;
     display: flex;
     align-items: center;
@@ -77,14 +82,14 @@ a{
     padding-left: 1rem;
     gap: 2rem;
 }
-.library i{
+.library-nav i{
     font-weight: 600;
 }
-.library img
+.library-nav img
 {
     height:2rem;
 }
-.library h6{
+.library-nav h6{
     margin-right: 4rem;
     text-transform: capitalize;
 }
@@ -95,9 +100,9 @@ a{
     opacity: 1;
 }
 .playlist{
-    height: 180px;
-    background-color:#121212;
-    padding: 1rem;
+    height: 190px;
+    background-color:#201f1f;
+    padding: 0.5rem;
     line-height: 0;
     display: flex;
     flex-direction: column;
@@ -105,9 +110,10 @@ a{
     justify-content: left;
     font-size: 1rem;
     border-radius: 1rem;
+    margin: 0.4rem;
 }
 .playlist h1{
-    font-size: 1.25rem;
+    font-size: 0.2rem;
 }
 .playlist h6{
     font-size: 1rem;
@@ -120,4 +126,5 @@ a{
     font-weight:600;
     background-color: #fff;
     font-size:large;
+    cursor: pointer;
 }
