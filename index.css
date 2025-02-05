@@ -118,9 +118,40 @@ a{
 .playlist h6{
     font-size: 1rem;
 }
-.playlist button{
+.btn1{
     height: 4rem;
-    width: 180px;
+    width: 12rem;
+    border-radius: 2rem;
+    padding: 5px;
+    font-weight:600;
+    background-color: #fff;
+    font-size:large;
+    cursor: pointer;
+}
+.podcast{
+    height: 300px;
+    background-color:#201f1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 1rem;
+    border-radius: 1rem;
+    margin: 0.4rem;
+    padding: 1rem;
+    
+    line-height: 2rem;
+}
+.podcast h1{
+    font-size: 1.45rem;
+    text-transform: capitalize;
+}
+.podcast h6{
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.btn2{
+    height: 4rem;
+    width: 14rem;
     border-radius: 2rem;
     padding: 5px;
     font-weight:600;
