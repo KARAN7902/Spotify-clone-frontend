@@ -1,3 +1,7 @@
 body{
     font-family: montserrat;
+    margin: 0;
+    background-color: black;
+    color: #fff;
+    overflow: hidden;
 }
