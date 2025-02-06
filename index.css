@@ -195,15 +195,18 @@ a{
     border-radius:50%;
 }
 .stcky-nav{
-    margin: 1rem;
-    /* width: 100%; */
+    /*this property allow to while scrolling the nav will naver scroll
+    due to the position sticky and top =0;*/
     position:sticky;
-    background: transparent;
+    padding-right: 1rem;
+    top: 0;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: end;
     gap:1rem;
-margin-right: 1rem;
+background-color: #121212;
+
 
 }
 .nav-opt{
