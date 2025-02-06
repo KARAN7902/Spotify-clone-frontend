@@ -159,3 +159,67 @@ a{
     font-size:large;
     cursor: pointer;
 }
+.btn3{
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 2rem;
+    padding: 5px;
+    font-weight:600;
+    background-color: #fff;
+    font-size:medium;
+    cursor: pointer;
+    border: transparent;
+}
+.btn4{
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 2rem;
+    padding: 5px;
+    font-weight:600;
+    color: #fff;
+    background-color:black;
+    font-size:medium;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    border: transparent;
+}
+.main-content{
+    background:linear-gradient(to top,black,#201f1f);
+}
+.icon{
+    height: 2.5rem;
+    background-color: black;
+    border-radius:50%;
+}
+.stcky-nav{
+    margin: 1rem;
+    /* width: 100%; */
+    position:sticky;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap:1rem;
+margin-right: 1rem;
+
+}
+.nav-opt{
+   position: absolute;
+   left: 0;
+   gap: 1rem;
+   display: flex;
+   opacity: 0.7;
+}
+.stcky-nav .user{
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background-color:black;
+    border: transparent;
+    text-align: center;
+    padding: 5px;
+}
