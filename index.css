@@ -193,6 +193,10 @@ a{
     height: 2.5rem;
     background-color: black;
     border-radius:50%;
+    opacity: 0.7;
+}
+.icon:hover{
+    opacity: 1;
 }
 .stcky-nav{
     /*this property allow to while scrolling the nav will naver scroll
@@ -205,13 +209,13 @@ a{
     align-items: center;
     justify-content: end;
     gap:1rem;
-background-color: #121212;
+background-color:#201f1f;
 
 
 }
 .nav-opt{
    position: absolute;
-   left: 0;
+   left: 16px;
    gap: 1rem;
    display: flex;
    opacity: 0.7;
@@ -225,4 +229,34 @@ background-color: #121212;
     border: transparent;
     text-align: center;
     padding: 5px;
+    cursor: pointer;
+}
+.cards-album{
+    height: 100%;
+    margin: 2rem;
+}
+.cards{
+    height: 50vh;
+    margin: 1.25rem;
+    /* background-color:rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 1rem;
+}
+.card{
+    height: 60%;
+    width: 200px;
+    background-color: #201f1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-transform: capitalize;
+   
+}
+.card img{
+    height: 200px;
+    border-radius: 5px;
 }
