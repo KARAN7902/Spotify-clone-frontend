@@ -267,9 +267,9 @@ background-color:#201f1f;
 
 .music-player .left-player{
     height: 100%;
-    width: 30%;
+    width: 20%;
     color: #fff;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: flex-start;
     gap: 1rem;
@@ -293,4 +293,9 @@ background-color:#201f1f;
 
 .left-player .img{
     height: 2rem;
+}
+.mid-player{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
 }
