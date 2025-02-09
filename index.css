@@ -267,7 +267,7 @@ background-color:#201f1f;
 
 .music-player .left-player{
     height: 100%;
-    width: 20%;
+    width: 30%;
     color: #fff;
     display: inline-flex;
     align-items: center;
@@ -295,11 +295,33 @@ background-color:#201f1f;
     height: 2rem;
 }
 .mid-player{
-    width: 40%;
+    width: 30%;
     height: 100%;
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
 }
 .mid-player .upper-div,.mid-player .lower-div{
     height: 50%;
     width: 100%;
+}
+.mid-player .upper-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.mid-player .upper-div img{
+    height: 100%;
+}
+.lower-div{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lower-div.progress{
+ height: 1rem;
+ width: 95%;
+ background-color: #fff;
 }
