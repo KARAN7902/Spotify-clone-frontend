@@ -267,3 +267,7 @@ background-color:#201f1f;
     height: 100%;
     width: 30%;
 }
+.left-player img {
+    height: 50px;
+    object-fit: cover;
+}
