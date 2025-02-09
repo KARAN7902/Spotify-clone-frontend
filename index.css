@@ -327,9 +327,18 @@ background-color:#201f1f;
     justify-content: center;
 }
 .lower-div .progress{
- height: 0.75rem;
+ height: 0.60rem;
  width: 95%;
  background-color: #fff;
  border-radius:45px;
  margin: 0 10px;
+}
+#play{
+    height: 2.75rem;
+}
+.p-bar{
+    height: 100%;
+    width: 50%;
+    background-color: #474545;
+    border-radius:45px;
 }
