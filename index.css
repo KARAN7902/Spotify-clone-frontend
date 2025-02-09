@@ -295,7 +295,11 @@ background-color:#201f1f;
     height: 2rem;
 }
 .mid-player{
-    width: 35%;
+    width: 40%;
     height: 100%;
     display: inline-block;
+}
+.mid-player .upper-div,.mid-player .lower-div{
+    height: 50%;
+    width: 100%;
 }
