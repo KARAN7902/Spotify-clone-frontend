@@ -327,7 +327,9 @@ background-color:#201f1f;
     justify-content: center;
 }
 .lower-div .progress{
- height: 1rem;
+ height: 0.75rem;
  width: 95%;
  background-color: #fff;
+ border-radius:45px;
+ margin: 0 10px;
 }
