@@ -261,3 +261,7 @@ background-color:#201f1f;
     border-radius: 5px;
 }
 /* music player css */
+
+.music-player .left-player{
+    height: 100%;
+}
